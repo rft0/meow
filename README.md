@@ -1,5 +1,5 @@
 ## Meow - The Purrfect Programming Language
-Meow is bytecode interpreter for meow.
+Meow is an esoteric language created for fun purposes and this repo contains bytecode interpreter for meow.
 
 ## Building
 ```
