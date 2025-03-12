@@ -175,7 +175,7 @@ static Token* get_token(Lexer* lexer) {
     if (!lexer->c)
         return token_new(TOKEN_EOF, EMPTY_STRV, lexer->line, lexer->col);
 
-    if (isalpha(lexer->c) || lexer->c == '_')
+    if (isalpha(lexer->c) || lexer->c == '_' || lexer->c == '~')
         return get_identifier(lexer);
     else if (isdigit(lexer->c))
         return get_number(lexer);
