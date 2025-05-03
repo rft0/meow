@@ -33,7 +33,6 @@ it is worthy to remind `meoow` and `meoww` generates same instruction.
 
 You can find more information about instruction encodings at `src/lut.c`.
 
-
 ## Code Example
 Here is an example to find nth fibonacci number in meow. 
 ```
