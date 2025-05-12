@@ -44,8 +44,7 @@ static void skipcomment(Lexer* lexer) {
     while (lexer->c && lexer->c != '\n')
         advance(lexer);
 }
-#include <stdio.h>
-#include <stdlib.h>
+
 static Token* get_identifier(Lexer* lexer) {
     StringView sv;
     sv.data = lexer->src + lexer->pos;
